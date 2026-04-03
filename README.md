@@ -1,3 +1,3 @@
 # devsecops-project
 
-![Architectire Image](.\assets\architecture.excalidraw.png)
+![Architectire Image](./assets/architecture.excalidraw.png)
