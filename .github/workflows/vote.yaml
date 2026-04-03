@@ -48,8 +48,8 @@ jobs:
       ### A list of the account/repo names for docker build. List should match what's enabled above
       ### defaults to:
       image-names: |
-        ghcr.io/pdalbanjan/example-voting-app-vote
-        pdalbanjan/examplevotingapp_vote
+        ghcr.io/pdalbanjan/voting-app-vote
+        pdalbanjan/voting-app-vote
 
       ### REQUIRED set rules for tagging images, based on special action syntax:
       ### https://github.com/docker/metadata-action#tags-input
