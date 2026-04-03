@@ -8,14 +8,14 @@ on:
       - "main"
     # only build when important files change
     paths:
-      - "vote/**"
+      - "src/vote/**"
       - ".github/workflows/vote.yaml"
   pull_request:
     branches:
       - "main"
     # only build when important files change
     paths:
-      - "vote/**"
+      - "src/vote/**"
       - ".github/workflows/vote.yaml"
 
 jobs:
