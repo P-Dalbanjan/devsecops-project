@@ -52,7 +52,7 @@ jobs:
         pdalbanjan/voting-app-vote
 
       ### REQUIRED set rules for tagging images, based on special action syntax:
-      ### https://github.com/docker/metadata-action#tags-input
+      ### https://github.com/docker/metadata-action#tags-input:
       ### defaults to:
       tag-rules: |
         type=raw,value=latest,enable=${{ endsWith(github.ref, github.event.repository.default_branch) }}
