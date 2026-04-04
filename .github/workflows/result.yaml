@@ -8,14 +8,14 @@ on:
       - "main"
     # only build when important files change
     paths:
-      - "result/**"
+      - "src/result/**"
       - ".github/workflows/result.yaml"
   pull_request:
     branches:
       - "main"
     # only build when important files change
     paths:
-      - "result/**"
+      - "src/result/**"
       - ".github/workflows/result.yaml"
 
 jobs:
