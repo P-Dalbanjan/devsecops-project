@@ -62,8 +62,8 @@ jobs:
     permissions:
       contents: read
       id-token: write
-      outputs:
-        image_tag: ${{ github.sha }}
+    outputs:
+      image_tag: ${{ github.sha }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6
